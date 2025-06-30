@@ -23,7 +23,7 @@
                       Aoxuan Pan
                     </p>
                     <p>
-                      Hi, I am Pan Aoxuan and I am currently working in a company as a image processing engineer. I got my bachelor degree from the University of Chinese Academy of Sciences in 2020 and my master degree from the Institute of Computing Technology, Chinese Academy of Sciences where I was advised by <a href="http://geometrylearning.com/" target="_blank">Prof. Lin Gao</a>. on medical image analysis in 2023. I'm particularly interested in generative technologies, including image, video, and 3D model generation. Feel free to reach out if you have interesting ideas to discuss!
+                      Hi, I am Pan Aoxuan and I am currently working in a company as a image processing engineer. I got my bachelor degree from the <a href="https://english.ucas.ac.cn/" target="_blank">University of Chinese Academy of Sciences</a> in 2020 and my master degree in 2023 from the <a href="https://english.ict.cas.cn/" target="_blank">Institute of Computing Technology</a>, <a href="https://english.cas.cn/" target="_blank">Chinese Academy of Sciences</a> where I was advised by <a href="http://geometrylearning.com/" target="_blank">Prof. Lin Gao</a> on medical image analysis. I'm particularly interested in generative technologies, including image, video, and 3D model generation. Feel free to reach out if you have interesting ideas to discuss!
 
 
                       
@@ -66,7 +66,43 @@
             <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
                 <!-- Example Publication Entry -->
-                <tr onmouseout="project1_stop()" onmouseover="project1_start()" bgcolor="#ffffd0">
+                <!-- <tr onmouseout="project2_stop()" onmouseover="project2_start()" bgcolor="#ffffd0"> -->
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <div class="one">
+                      <div class="two" id='project2_image'>
+                        <video width=100% height=100% muted autoplay loop>
+                          <source src="images/project2.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                      <img src='images/editing.png' width="160">
+                    </div>
+                    <script type="text/javascript">
+                      function project2_start() {
+                        document.getElementById('project2_image').style.opacity = "1";
+                      }
+                      function project2_stop() {
+                        document.getElementById('project2_image').style.opacity = "0";
+                      }
+                      project2_stop()
+                    </script>
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">Lift, Edit and Drop</span>
+                    <br>
+                    <strong>Yuhuan Xie, Aoxuan Pan, Mingxian Lin, Wei Huang, Yi-Hua Huang, Xiaojuan Qi</strong>
+                    <br>
+                    <em>Submitted</em>, 2025
+                    <br>
+                    <p></p>
+                    <p>
+                      A 3D-aware image editing framework that allows users to perform large-scale image editing tasks while maintaining the 3D consistency of the image.
+                    </p>
+                  </td>
+                </tr>
+
+
+                <!-- <tr onmouseout="project1_stop()" onmouseover="project1_start()" bgcolor="#ffffd0"> -->
                   <td style="padding:16px;width:20%;vertical-align:middle">
                     <div class="one">
                       <div class="two" id='project1_image'>
@@ -88,22 +124,23 @@
                     </script>
                   </td>
                   <td style="padding:8px;width:80%;vertical-align:middle">
-                    <a href="https://your-project-page.com">
+                    <!-- <a href="https://your-project-page.com"> -->
                       <span class="papertitle">Research on Fundus Image Classification Method Based on Multi-level Clustering and Casusal Learning</span>
-                    </a>
+                    <!-- </a> -->
                     <br>
                     <strong>Aoxuan Pan</strong>
                     <br>
                     <em>Thesis</em>, 2023
                     <br>
-                    <a href="https://your-project-page.com">project page</a> /
-                    <a href="https://arxiv.org/abs/your-paper">arXiv</a>
+                    <!-- <a href="https://your-project-page.com">project page</a> / -->
+                    <!-- <a href="https://arxiv.org/abs/your-paper">arXiv</a> -->
                     <p></p>
                     <p>
-                      [Brief description of your work and its contributions]
+                      We developed a new way to classify eye images (fundus) by using hierarchical clustering to group similar features and a causal learning-based attention module to make sure the model focuses on the most important parts. This makes our classifications more accurate and explainable.
                     </p>
                   </td>
                 </tr>
+                
 
                 <!-- Add more publications/projects here following the same format -->
                 
